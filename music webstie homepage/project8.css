@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url("banner2.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+  
+  
+}
+:root{
+    --bg_color_primary:#3cbaee;
+    --bg_color_secondary:white;
+}
+.firstimg{
+    width: 14vw;
+    height: 8vh;
+    margin-top: 2rem;
+  
+}
+.icon{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+header{
+    display: flex;
+    margin-left: 14rem;
+}
+.navigation{
+    display: flex;
+    margin-top: 3.5rem;
+    margin-left: 14rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+font-size: 1.1rem;
+
+    margin: 2rem 1.5rem;
+    color: white;
+    margin-top: 3rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10rem;
+    color: white;
+}
+h1,h2{
+    font-size: 6rem;
+    
+}
+.heading{
+    color: var(--bg_color_primary);
+}
+.para{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.radius{
+   font-size: 2rem;
+   margin-top: 3rem;
+   
+  
+}
+.a{
+    color: black;
+    background-color: var(--bg_color_primary);
+    border: 2px solid white;
+    padding: 1.5rem 3rem;
+    border-radius: 32px;
+
+}
+#b{
+    margin-left: 3rem;
+    width: 30vw;
+}
+a:hover{
+    color: var(--bg_color_primary);
+}
+.home{
+    color:var(--bg_color_primary)
+}
