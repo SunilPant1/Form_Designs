@@ -1,0 +1,102 @@
+:root{
+    --bg_color_primary:bisque;
+    --bg_color_secondary:black;
+    --bg_color_third:red;
+
+    --text_size_paragraph:18px;
+    --text_size_heading:22px
+}
+  h1,h2,h3,h4{
+
+      margin: 0;
+      font-size: var(--text_size_heading);
+      text-align: center;
+      margin: 2rem 0;
+
+  }
+  .brown{
+     background-color: var(--bg_color_primary);
+     width: 100%;
+     margin: 2rem 0;
+     height: 30vh;
+  }
+  /* .brown h2{
+      width: 30%;
+    margin-left: 30rem;
+  } */
+  .white{
+      background-color: white;
+      width: 100%;
+      margin: 2rem 0;
+    }
+   
+   
+  .black{
+      background-color: var(--bg_color_secondary);
+      width: 100%;
+      margin: 1.5rem 0;
+  }
+  .red{
+      background-color: var(--bg_color_third);
+      width: 100%;
+      margin: 1.5rem 0;
+  }
+  .center{
+      text-align: center;
+  }
+  .font_color{
+      color: white;
+      /* margin-left: 8rem; */
+  }
+  p{
+      font-size: var(--text_size_paragraph);
+  }
+  img{
+      width: 100vw;
+      margin: 1rem 0;
+      
+  }
+  p{
+      padding: 0 1rem;
+  }
+  section>h2{
+      margin: 4rem 0;
+      font-size: 25px;
+      color: red;
+  }
+  .brown>h2{
+      font-size: 30px;
+      color: red;
+  }
+  @media(min-width : 750px){
+
+    .hello{
+        
+        display: grid;
+        /* grid-template-areas: 
+        'left  left middle middle right right';
+        
+  } */
+  grid-template-columns: 3fr 3fr 3fr;
+  /* grid-gap: -2px; */
+}
+   .left{
+       width: 20vw;
+       margin-left: 8.5rem;
+       
+   }
+   .middle{
+    width: 22vw;
+    margin-left: 3rem;
+    
+}
+.right{
+    width: 22vw;
+    margin-right: 12rem;
+    
+}
+ .bhuwan h3 p{
+     margin-left: 4rem;
+    
+}
+  }
