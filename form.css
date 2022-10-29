@@ -23,9 +23,11 @@ body{
     justify-content: center;
     width: 22rem;
 }
+
 .container:hover{
     box-shadow: 0rem 0rem 0.5rem 0rem rgba(0, 0, 0, 0.348);
 }
+
 input{
     border: none;
     padding: 5%;
@@ -43,6 +45,7 @@ label{
     color: white;
     font-size: large;
 }
+
 #submit:hover{
     background-color: white;
     color:rgb(64, 64, 164);
